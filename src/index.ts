@@ -19,3 +19,4 @@ export {
   type LiteralExpression,
 } from "./parser";
 export { evaluate, type JSONPathMatch } from "./evaluator";
+export { JSONQuery, PIPES, AGGREGATIONS } from "./json-query";
