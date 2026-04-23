@@ -48,6 +48,40 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
+    },
+    "./tokenizer": {
+      "types": "./dist/tokenizer.d.ts",
+      "import": "./dist/tokenizer.mjs",
+      "require": "./dist/tokenizer.js"
+    },
+    "./parser": {
+      "types": "./dist/parser.d.ts",
+      "import": "./dist/parser.mjs",
+      "require": "./dist/parser.js"
+    },
+    "./evaluator": {
+      "types": "./dist/evaluator.d.ts",
+      "import": "./dist/evaluator.mjs",
+      "require": "./dist/evaluator.js"
+    },
+    "./json-path": {
+      "types": "./dist/json-path.d.ts",
+      "import": "./dist/json-path.mjs",
+      "require": "./dist/json-path.js"
+    },
+    "./json-query": {
+      "types": "./dist/json-query.d.ts",
+      "import": "./dist/json-query.mjs",
+      "require": "./dist/json-query.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "tokenizer": ["./dist/tokenizer.d.ts"],
+      "parser": ["./dist/parser.d.ts"],
+      "evaluator": ["./dist/evaluator.d.ts"],
+      "json-path": ["./dist/json-path.d.ts"],
+      "json-query": ["./dist/json-query.d.ts"]
     }
   },
   "scripts": {
